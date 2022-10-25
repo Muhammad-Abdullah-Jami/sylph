@@ -8,6 +8,9 @@ To run the container run the following commands.
 If Flask Application works then use these commands.
 
 1  docker build -t docker-flask .
+
 2  docker run -p 5000:5000 -d docker-flask
+
 3  Then go to your preferred browser and write localhost:5000
+
 4  Congratulations! You containerized your Flask code
